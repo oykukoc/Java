@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Die Klasse repräsentiert einen Knoten. Er hat Koordinaten
  * und eine Liste von Kanten, die ihn mit Nachbarknoten verbinden.
- * @author Thomas Röfer
+ * @author Öykü Koç
  */
 class Node
 {
