@@ -7,7 +7,7 @@
  * sich dieses Spielobjekt entsprechend der Gitterstruktur des Feldes
  * in eine bestimmte Richtung bewegen darf.
  *
- * @author Thomas Röfer
+ * @author Öykü Koç
  */
 abstract class Actor extends GameObject
 {
