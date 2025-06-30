@@ -3,7 +3,7 @@ package de.uni_bremen.pi2;
 /**
  * Die Klasse repräsentiert einen Zug und seine Bewertung.
  * Für die Bewertung gilt normalerweise, je größer, desto besser.
- * @author Thomas Röfer
+ * @author Öykü Koç
  */
 class Move
 {
