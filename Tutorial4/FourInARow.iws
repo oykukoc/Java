@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2554dce3-5d4a-439e-ad05-cea7b61e4327" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2hrcq64ra0teooOPfDUstgFkGCR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.testComputerWin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.testComputerWinDiagonal.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.testComputerWinHorizontal.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.testComputerWinVertikal.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.testEvaluate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.testGetGameResultComputerWon.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.testGetGameResultDraw.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.testGetGameResultHumanWon.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.testGoodScore.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.testHumanMove.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.testHumanWin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.testHumanWinDiagonal.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.testHumanWinHorizontal.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.testHumanWinVertical.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.testNegaMaxAlphaBeta.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.testOtherComputer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.testOtherHuman.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FourInARowTest.testToString.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="FourInARowTest.testEvaluate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FourInARow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.uni_bremen.pi2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.uni_bremen.pi2" />
+      <option name="MAIN_CLASS_NAME" value="de.uni_bremen.pi2.FourInARowTest" />
+      <option name="METHOD_NAME" value="testEvaluate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FourInARowTest.testHumanWinDiagonal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FourInARow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.uni_bremen.pi2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.uni_bremen.pi2" />
+      <option name="MAIN_CLASS_NAME" value="de.uni_bremen.pi2.FourInARowTest" />
+      <option name="METHOD_NAME" value="testHumanWinDiagonal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FourInARowTest.testHumanWinHorizontal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FourInARow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.uni_bremen.pi2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.uni_bremen.pi2" />
+      <option name="MAIN_CLASS_NAME" value="de.uni_bremen.pi2.FourInARowTest" />
+      <option name="METHOD_NAME" value="testHumanWinHorizontal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FourInARowTest.testHumanWinVertical" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FourInARow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.uni_bremen.pi2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.uni_bremen.pi2" />
+      <option name="MAIN_CLASS_NAME" value="de.uni_bremen.pi2.FourInARowTest" />
+      <option name="METHOD_NAME" value="testHumanWinVertical" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FourInARowTest.testNegaMaxAlphaBeta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FourInARow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.uni_bremen.pi2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.uni_bremen.pi2" />
+      <option name="MAIN_CLASS_NAME" value="de.uni_bremen.pi2.FourInARowTest" />
+      <option name="METHOD_NAME" value="testNegaMaxAlphaBeta" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FourInARowTest.testNegaMaxAlphaBeta" />
+        <item itemvalue="JUnit.FourInARowTest.testEvaluate" />
+        <item itemvalue="JUnit.FourInARowTest.testHumanWinDiagonal" />
+        <item itemvalue="JUnit.FourInARowTest.testHumanWinVertical" />
+        <item itemvalue="JUnit.FourInARowTest.testHumanWinHorizontal" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2554dce3-5d4a-439e-ad05-cea7b61e4327" name="Changes" comment="" />
+      <created>1718355826534</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718355826534</updated>
+    </task>
+    <servers />
+  </component>
+</project>
