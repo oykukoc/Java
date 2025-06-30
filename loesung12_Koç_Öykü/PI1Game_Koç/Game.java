@@ -12,7 +12,7 @@ import javax.sound.sampled.UnsupportedAudioFileException;
 /**
  * Eine Klasse, die drei Klassenmethoden kapselt, die für Spiele benötigt werden.
  *
- * @author Thomas Röfer
+ * @author Öykü Koç
  */
 abstract class Game
 {
