@@ -29,7 +29,7 @@ import javax.swing.JPanel;
  * Unterverzeichnis "images" und Sound-Dateien im Unterverzeichnis "sounds"
  * erwartet.
  *
- * @author Thomas Röfer
+ * @author Öykü Koç
  */
 class GameObject extends Game
 {
