@@ -13,7 +13,7 @@ import org.junit.jupiter.api.Test;
  * aus Übungsblatt 5, das ja alle Nachbarschaftskombinationen
  * enthält.
  *
- * @author Thomas Röfer
+ * @author Öykü Koç
  */
 public class FieldTest
 {
