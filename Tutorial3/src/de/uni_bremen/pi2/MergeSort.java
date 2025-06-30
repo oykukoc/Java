@@ -1,6 +1,6 @@
 package de.uni_bremen.pi2;
 /**
-* @Author Altug Uyanik
+* @Author Öykü Koç
 */
 public class MergeSort
 {
