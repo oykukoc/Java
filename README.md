@@ -31,16 +31,3 @@ This repository contains a series of Java tutorials, exercises, and solutions de
 
 ### 📂 loesung12_Koç_Öykü/PI1Game_Koç
 - `GameObject.java`: A Java class for representing objects in a game environment.
-
----
-
-## 📄 README.md
-This file — provides a high-level overview of the repository's contents.
-
----
-
-## 🛠 How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
