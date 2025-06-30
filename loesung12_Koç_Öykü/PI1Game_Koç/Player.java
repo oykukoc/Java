@@ -6,7 +6,7 @@ import static java.awt.event.KeyEvent.*;
  * wird. Die Figur bewegt sich dabei auf der Gitterstruktur des
  * Spielfeldes.
  *
- * @author Thomas Röfer
+ * @author Öykü Koç
  */
 class Player extends Actor
 {
