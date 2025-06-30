@@ -2,7 +2,7 @@ package de.uni_bremen.pi2;
 
 /**
  * Dieser Aufzählungstyp beschreibt die möglichen Ergebnisse eines Zugs.
- * @author Thomas Röfer
+ * @author Öykü Koç
  */
 enum Result
 {
