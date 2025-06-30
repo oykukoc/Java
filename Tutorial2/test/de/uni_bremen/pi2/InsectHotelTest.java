@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 /**
- *Author Altug Uyanik
+ *Author Öykü Koç
  */
 public class InsectHotelTest
 {
