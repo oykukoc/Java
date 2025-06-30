@@ -6,7 +6,7 @@ import static java.lang.Math.max;
  * auf und ab läuft. Dabei werden bei der Konstruktion die Startposition und
  * -richtung angegeben, sowie das Spielfeld, auf dem sie sich bewegt.
  *
- * @author Thomas Röfer
+ * @author Öykü Koç
  */
 class Walker extends Actor
 {
