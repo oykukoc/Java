@@ -8,7 +8,7 @@ import static de.uni_bremen.pi2.Result.*;
 
 /**
  * Die Hauptklasse des Spiels.
- * @author Thomas Röfer
+ * @author Öykü Koç
  */
 public class Main
 {
