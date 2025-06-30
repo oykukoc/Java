@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 /**
- * @Author Altug Uyanik
+ * @Author Öykü Koç
  * */
 public class FourInARowTest {
 
