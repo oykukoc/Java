@@ -3,7 +3,7 @@ package de.uni_bremen.pi2;
 import java.util.Iterator;
 
 /**
- *@Author Altug Uyanik
+ *@Author Öykü Koç
  * Diese Klasse implementiert eine einfache Menge (Set) in Java.
  * @param <E> Der generische Typ der Elemente in der Menge.
  */
