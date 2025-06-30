@@ -1,0 +1,91 @@
+\documentclass{pi1}
+\usepackage{graphicx}
+\begin{document}
+
+% \maketitle{Übungsblatt}{Tutor:in}{Bearbeiter:in}
+\maketitle{10}{Pascal Himmelmann}{Öykü Koç}
+
+
+\section{Lässig Level laden}
+
+Ich habe eine Level-Klasse erstellt, die es erlaubt, die Beschreibung des Bereichs auf der Karte aus der Datei zu laden, nicht direkt aus einem String im Code.
+Ich habe die Namen und Richtungssymbole der Player und Walker im Konstruktor definiert und sie der LinkedHashMap hinzugefügt.\\
+
+Da es insgesamt 4 Richtungen gibt, musste ich für jedes Zeichen unterschiedliche Symbole auf der Karte verwenden:\\
+0 = rechts,\\ 1= unten,\\ 2= links\\ und 3= oben.\\
+Bei der Auswahl dieser Symbole ging ich von den ASCII-Codes der Buchstaben aus, die ich angegeben hatte;\\
+0,1,2,3 für Frau (Spieler)\\
+@,A,B,C für Claudius (Wanderer)\\
+D,E,F,G für Laila (Spaziergängerin)\\
+H,I,J,K für Kind (Wanderer)\\
+Ich habe die Symbole ausgewählt.\\
+
+Das Ergebnis der Operation dieser Symbole (ASCII-Code \& 3) liefert die folgenden Richtungsergebnisse. Zum Beispiel: Der ASCII-Code des @-Symbols ist 64. Daher ergibt die Operation (64 \& 3) die Richtungsangabe "0". Gleichzeitig entsprechen die Richtungszahlen (0,1,2,3) den Indizes der Daten (@ABC) in der VALUE-Information der LinkedHashMap, die die Symbole enthält. Der Vergleich zwischen den Symbolen in der Map und den Symbolen in der LinkedHashMap wird also direkt über den Index vorgenommen.\\
+@=0 ,A=1, B=2 , C=3\\
+D=0, E=1, F=2, G=3\\
+H=0, I=1, J=2, K=3\\
+Mit diesen Ergebnissen konnte ich leicht auf die jeweiligen Richtungen der Zeichen zugreifen.
+
+
+
+\lstinputlisting[firstnumber=10,firstline=10,lastline=59]{Level.java}
+
+Dann habe ich die von mir erstellte Datei "Level.txt" gelesen. In dieser Datei habe ich eine Methode geschrieben, um die Zeichen nacheinander zu lesen. Diese Methode hat die Zeilen durchlaufen und mir die Informationen der Karte als String zurückgegeben. Als Kontrollmechanismus habe ich das "\#"-Zeichen am Anfang jeder Zeile verwendet, um es in der split("\#")-Methode von String-Daten zu verwenden. Dann habe ich mit Hilfe der split-Methode die String-Daten in ein String[]-Array umgewandelt und das Array zurückgegeben. Ich habe auch Codes geschrieben, die eine Fehlermeldung ausgeben, wenn die als Parameter übergebene Datei "Level.txt" nicht gefunden oder gelesen werden kann.
+
+
+\lstinputlisting[firstnumber=61,firstline=61,lastline=124]{Level.java}
+
+
+
+Eine weitere Methode von mir ist die Methode, die prüft, ob die Symbole in der Map-Datei mit den Symbolen übereinstimmen, die ich für die Player und Walker definiert habe. Diese Methode gibt im Falle einer Übereinstimmung die Namen der Spieler- und Walker-Akteure zurück. Wenn es keine Übereinstimmung gibt, gibt sie den Wert Null zurück.
+
+\lstinputlisting[firstnumber=126,firstline=126,lastline=145]{Level.java}
+
+Ich habe eine Methode namens createPlayer erstellt, um das Player-Objekt zu erstellen. Diese Methode prüft dank der Symbole und ASCII-Zahlen, die ich im Constructor definiert habe, ob ein Player im String[] map Array vorhanden ist, und wenn dies der Fall ist, erstellt sie einen neuen Player, indem sie die x- und y-Position übernimmt und ihn der Actor Array List hinzufügt. Wenn unter den gegebenen Bedingungen kein Player vorhanden ist, wird eine Fehlermeldung ausgegeben
+
+\lstinputlisting[firstnumber=147,firstline=147,lastline=176]{Level.java}
+
+Ich habe eine Methode namens createWalker erstellt, um das Walker-Objekt zu erstellen. Diese Methode prüft, ob ein Walker im String[] map Array vorhanden ist, und wenn dies der Fall ist, erstellt sie ein neues Walker-Objekt, indem sie die x- und y-Position und den Walker-Namen mit der getActorName-Methode abruft und ihn dank der Symbole und ASCII-Zahlen, die ich im Constructor definiert habe, der Actor Array List hinzufügt. Wenn die Symbole im String[] map Array nicht mit den in LinkedHashMap definierten Symbolen übereinstimmen, gebe ich eine Fehlermeldung aus.
+
+\lstinputlisting[firstnumber=178,firstline=178,lastline=203]{Level.java}
+
+Gegen Ende habe ich eine allgemeine Methode namens createActors geschrieben, die die createPlayer- und createWalker-Methoden ausführt und meine Actor Array List namens getActors erstellt.
+
+
+
+
+\lstinputlisting[firstnumber=205,firstline=205,lastline=218]{Level.java}
+
+
+In der Methode Main PI1Game habe ich die Klasse Level und zusätzliche Objekte erstellt und die Methode act() aufgerufen, um die Akteure in der While-Schleife zu aktivieren
+
+\lstinputlisting[firstnumber=4,firstline=4,lastline=46]{PI1Game.java}
+
+\section{Bonusaufgabe: Ich bin dann mal weg}
+
+In der Klasse Level habe ich eine hide()-Methode geschrieben, um die erstellten Akteure zu zerstören. In der Klasse Field habe ich eine ArrayList geschrieben, die die erstellten Bodenobjekte der Karte enthält, und eine hide()-Methode, die die Objekte in dieser Liste zerstört. Und ich habe diese Methode in der hide-Methode der Klasse Level verwendet. Schließlich habe ich in der PI1 Main Klasse, wenn Player visible false ist, die öffentliche hide() Methode in der Level Klasse aufgerufen, um den Boden und die Akteure zu zerstören. Ich habe auch alle Objekte zerstört, indem ich die Objekte in der gameObjects Array List, die die zusätzlichen Objekte enthält, die in PI1 Main erstellt wurden, in der for Schleife zerstört habe.
+
+
+
+\lstinputlisting[firstnumber=220,firstline=220,lastline=229]{Level.java} 
+\lstinputlisting[firstnumber=46,firstline=46,lastline=49]{Field.java} 
+\lstinputlisting[firstnumber=57,firstline=57,lastline=66]{Field.java} 
+\lstinputlisting[firstnumber=134,firstline=134,lastline=142]{Field.java} 
+\lstinputlisting[firstnumber=21,firstline=21,lastline=44]{PI1Game.java}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+
