@@ -4,7 +4,7 @@ package de.uni_bremen.pi2;
  * Die Klasse repräsentiert eine ausgehende Kante. Sie speichert
  * den Zielknoten und die Kosten, um vom Quellknoten zum Zielknoten
  * zu gelangen.
- * @author Thomas Röfer
+ * @author Öykü Koç
  */
 class Edge
 {
