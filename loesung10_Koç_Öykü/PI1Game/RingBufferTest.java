@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Diese Klasse definiert die Tests für die Klasse RingBuffer.
  *
- * @author Elena Gorbachuk und Thomas Röfer
+ * @author Öykü Koç
  */
 public class RingBufferTest
 {
