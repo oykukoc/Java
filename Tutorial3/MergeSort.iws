@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98bbbf53-8bc9-4c5b-b741-9a82af2c8cfd" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2hEhyKVcky8ywRIzEgC2eL6UyMu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.MergeSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeSortTest.testGetMiddleNodeLongList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeSortTest.testGetMiddleNodeSingleElementList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeSortTest.testLengthOfNodeElements_EqualTo_LengthOfListItems_ButNumbersAreDifferent_ShouldNotBeEqual.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeSortTest.testLengthOfNodeElements_EqualTo_LengthOfListItems_NumbersAreSame_ShouldBeEqual.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeSortTest.testLengthOfNodeElements_LessThan_LengthOfListItems_ShouldNotBeEqual.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeSortTest.testLengthOfNodeElements_MoreThan_LengthOfListItems_ShouldNotBeEqual.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeSortTest.testSortAndMerge_NegativeAndPositive_ReturnSortedList.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.MergeSortTest.testSortAndMerge_Negative_ReturnSortedList.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.MergeSortTest.testSortAndMerge_Positive_ReturnSortedList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeSortTest.testSortedAsListValuesShouldBeEqualToValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeSortTest.testSortedAsListValues_ShouldBeEqualTo_GivenListValues.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeSortTest.testSortedNodeLastNext_ShouldBeNull.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeSortTest.testSortingAlreadySortedList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeSortTest.testSortingEmptyList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeSortTest.testSortingEmptyListShouldReturnNull.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeSortTest.testSortingListWithDuplicateElements.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeSortTest.testSortingListWithDuplicateElements_ShouldReturnGivenList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeSortTest.testSortingUnsortedList.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="MergeSortTest.testSortAndMerge_NegativeAndPositive_ReturnSortedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MergeSort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.uni_bremen.pi2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.uni_bremen.pi2" />
+      <option name="MAIN_CLASS_NAME" value="de.uni_bremen.pi2.MergeSortTest" />
+      <option name="METHOD_NAME" value="testSortAndMerge_NegativeAndPositive_ReturnSortedList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortTest.testSortAndMerge_Negative_ReturnSortedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MergeSort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.uni_bremen.pi2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.uni_bremen.pi2" />
+      <option name="MAIN_CLASS_NAME" value="de.uni_bremen.pi2.MergeSortTest" />
+      <option name="METHOD_NAME" value="testSortAndMerge_Negative_ReturnSortedList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortTest.testSortAndMerge_Positive_ReturnSortedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MergeSort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.uni_bremen.pi2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.uni_bremen.pi2" />
+      <option name="MAIN_CLASS_NAME" value="de.uni_bremen.pi2.MergeSortTest" />
+      <option name="METHOD_NAME" value="testSortAndMerge_Positive_ReturnSortedList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortTest.testSortedAsListValues_ShouldBeEqualTo_GivenListValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MergeSort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.uni_bremen.pi2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.uni_bremen.pi2" />
+      <option name="MAIN_CLASS_NAME" value="de.uni_bremen.pi2.MergeSortTest" />
+      <option name="METHOD_NAME" value="testSortedAsListValues_ShouldBeEqualTo_GivenListValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortTest.testSortedNodeLastNext_ShouldBeNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MergeSort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.uni_bremen.pi2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.uni_bremen.pi2" />
+      <option name="MAIN_CLASS_NAME" value="de.uni_bremen.pi2.MergeSortTest" />
+      <option name="METHOD_NAME" value="testSortedNodeLastNext_ShouldBeNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MergeSortTest.testSortAndMerge_Positive_ReturnSortedList" />
+        <item itemvalue="JUnit.MergeSortTest.testSortedAsListValues_ShouldBeEqualTo_GivenListValues" />
+        <item itemvalue="JUnit.MergeSortTest.testSortAndMerge_Negative_ReturnSortedList" />
+        <item itemvalue="JUnit.MergeSortTest.testSortAndMerge_NegativeAndPositive_ReturnSortedList" />
+        <item itemvalue="JUnit.MergeSortTest.testSortedNodeLastNext_ShouldBeNull" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98bbbf53-8bc9-4c5b-b741-9a82af2c8cfd" name="Changes" comment="" />
+      <created>1717165398992</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717165398992</updated>
+    </task>
+    <servers />
+  </component>
+</project>
