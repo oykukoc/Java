@@ -17,7 +17,7 @@ This repository contains a series of Java tutorials, exercises, and solutions de
 - `FourInARowTest.java`: Test cases for a Four-in-a-Row (Connect Four) game.
 
 ### ❌ Tutorial5
-- `loesung05.pdf`: Deleted solution file.
+- `loesung05.pdf`: ImageHandler/ImageWiever
 
 ### 🔗 Tutorial6
 - `Node.java`: A simple implementation of a Node class (possibly for linked lists or trees).
